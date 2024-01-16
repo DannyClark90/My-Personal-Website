@@ -1,0 +1,12 @@
+#header-container {
+height: 30rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+text-shadow: 4px 8px 15px #000000;
+font-family: 'Licorice', cursive;
+font-size: 7rem;
+font-weight: 550;
+}
+  

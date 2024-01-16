@@ -6,7 +6,11 @@ justify-content: center;
 align-items: center;
 text-shadow: 4px 8px 15px #000000;
 font-family: 'Licorice', cursive;
-/* font-size: 7rem;
-font-weight: 550; */
+}
+
+#subtitle{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Kaisei Tokumin', serif;
 }
   

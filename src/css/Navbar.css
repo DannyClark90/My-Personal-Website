@@ -1,0 +1,30 @@
+#menuClosed {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: fit-content;
+    background: linear-gradient(#91AF7D, #E9E2D2);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+#menuOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background: #E9E2D2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    gap: 2rem;
+    transition: ease;
+}
+
+#navItems{
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}

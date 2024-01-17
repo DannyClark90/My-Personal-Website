@@ -13,7 +13,8 @@ export default {
       'xl': '1536px'
     },
     fontSize: {
-      '6xs': '0.7rem',
+      '7xs': '0.7rem',
+      '6xs': '0.9rem',
       '5xs': '1.1rem',
       '4xs': '1.4rem',
       '3xs': '1.5rem',

@@ -11,27 +11,27 @@ export default function NavBar() {
     setClick(!click)
   };
 
-  const menuVars = {
-    initial:{
-      scaleY:0
-    },
-    animate: {
-      scaleY:1,
-      transition: {
-        duration: 0.5
-      }
-    },
-    exit:{ 
-        scaleY:0,
-        transition: {
-          duration: 0.5
-        }
-      }
-    }
+  // const menuVars = {
+  //   initial:{
+  //     scaleY:0
+  //   },
+  //   animate: {
+  //     scaleY:1,
+  //     transition: {
+  //       duration: 0.4
+  //     }
+  //   },
+  //   exit:{ 
+  //       scaleY:0,
+  //       transition: {
+  //         duration: 0.1
+  //       }
+  //     }
+  //   }
 
   const content = (
     <>
-        <motion.ul variants={menuVars} initial="initial" animate="animate" exit="exit" id="menuOpen" className="md:hidden xs:flex origin-top">
+        <ul id="menuOpen" className="md:hidden xs:flex origin-top">
           <Link spy={true} smooth={true} className="hover:text-gray-50 pt-2">
             <li>Bio</li>
           </Link>
@@ -55,7 +55,7 @@ export default function NavBar() {
           <Link spy={true} smooth={true} className="hover:text-gray-50 pt-2">
             <li>Employment History</li>
           </Link>
-        </motion.ul>
+        </ul>
     </>
   );
 

@@ -20,6 +20,7 @@ export default {
       '3xs': '1.5rem',
       'xxs': '1.8rem',
       'xs': '2.2rem',
+      '1xs': '2.8rem',
       's': '3.6rem',
       'm': '4.6rem',
       'l': '6rem',

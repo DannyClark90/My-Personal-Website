@@ -8,16 +8,15 @@
     font-weight: 500;
 }
 
-#menuOpen {
+#menuOpen{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: fit-content;
     background: #E9E2D2;
+    gap: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    gap: 2rem;
-    transition: ease;
+    padding-bottom: 1rem;
+    
 }
 
 #navItems{
